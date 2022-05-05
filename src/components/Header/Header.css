@@ -31,8 +31,16 @@
   align-items: center;
   flex-direction: column;
 }
+.Header section p {
+  color: white;
+  font-size: 20px;
+
+  max-width: 650px;
+  text-align: center;
+}
 .Header h1 {
   position: relative;
+  color: #fff;
   font-size: 2em;
 }
 .Header .box {
@@ -41,9 +49,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap ;
+  flex-direction: column;
   background-color: #fff;
   padding: 30px 50px;
   transform: translateY(50%);
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+.Header .box h2 {
+  font-size: 1.7rem;
+}
+.Header .box p {
+  font-size: 20px;
 }

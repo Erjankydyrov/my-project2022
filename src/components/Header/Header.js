@@ -1,6 +1,6 @@
 import "./Header.css";
 
-function Header({ image, title, children }) {
+function Header({ image, title, children, boxTitle, boxChildren }) {
   return (
     <header className="Header container">
       <div className="headerBg">
@@ -10,8 +10,8 @@ function Header({ image, title, children }) {
           <p>{children}</p>
         </section>
         <div className="box">
-          <h1>{title}</h1>
-          <p>{children}</p>
+          <h2>{boxTitle}</h2>
+          <p>{boxChildren}</p>
         </div>
       </div>
     </header>
