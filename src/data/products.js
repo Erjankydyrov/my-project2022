@@ -45,8 +45,6 @@ export function getProducts() {
 // dark-roast
 export function getProduct(productId) {
   return products[
-    products.findIndex(
-      product =>  product.productId === productId
-    )
+    products.findIndex((product) => product.productId === productId)
   ];
 }

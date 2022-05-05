@@ -1,8 +1,8 @@
-import "./Footer.css";
+import classes from "./Footer.module.css";
 
 function Footer() {
   return (
-    <footer className="Footer">
+    <footer className={classes.Footer}>
       <div className="container">
         Fresh Coffee Beans 2022
       </div>
