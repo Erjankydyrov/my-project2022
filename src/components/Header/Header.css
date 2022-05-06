@@ -68,3 +68,9 @@
 .Header .box p {
   font-size: 20px;
 }
+
+@media (max-width: 600px) {
+  .Header.container {
+    padding: 0;
+  } 
+}
