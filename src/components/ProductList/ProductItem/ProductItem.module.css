@@ -1,48 +1,80 @@
-.ProductItem img {
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-
-  border-radius: 2rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-  z-index: 2;
-}
 .ProductItem {
   position: relative;
-  flex: 0 0 30%;
-  margin-bottom: 5rem;
-  margin-top: 1rem;
+  margin: 1rem 0.5rem;
 }
-.ProductItem a {
-  position: absolute;
-  bottom: -3.5rem;
-  left: 1.5rem;
-  right: 1.5rem;
-  z-index: 1;
-  
-  background-color: #272727;
-  color: white;
-  font-weight: bold;
-  font-size: 1.3rem;
-  padding: .8rem 1rem 1.2rem;
-  text-align: center;
-  border-radius: 1.5rem;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+
+.ProductItemImage {
+  position: relative;
+  width: 300px;
+  height: 420px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
 }
-.ProductItem .price {
+.ProductItemImage:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.ProductItemImage:hover img {
+  transform: scale(1.25);
+}
+.ProductItemImage img {
+  width: 100%;
+  object-fit: cover;
+  transition: 0.25s;
+}
+.ProductItemImage .ProductItemText {
   position: absolute;
-  top: -1.5rem;
-  z-index: 3;
-  right: 0;
-  
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 30px;
   background-color: #272727;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   color: white;
-  font-weight: bold;
-  font-size: 1.3rem;
-  padding: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.ProductItemImage .ProductItemText h3 {
+  margin: 0 0 20px;
+  padding: 0;
+}
+.ProductItemImage .ProductItemText p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+.ProductItemImage .ProductItemText button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0 0;
+  padding: 10px 30px;
+  background-color: #fd9c2e;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+}
+
+.ribbon {
+  position: absolute;
+  right: var(--right, 10px);
+  top: var(--top, -3px);
+  filter: drop-shadow(2px 3px 2px rgba(0, 0, 0, 0.5));
+}
+.ribbon > .content {
+  color: white;
+  font-size: 1.25rem;
   text-align: center;
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  font-weight: 400;
+  background: #fd9c2e;
+  padding: 10px 3px 15px;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8px), 50% 100%, 0 calc(100% - 8px));
+  width: 32px;
+  min-height: 36px;
 }
