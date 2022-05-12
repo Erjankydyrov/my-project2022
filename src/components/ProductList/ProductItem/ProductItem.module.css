@@ -35,13 +35,13 @@
   color: white;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: space-between;
 }
 .ProductItemImage .ProductItemText h3 {
-  margin: 0 0 20px;
+  margin: 0;
   padding: 0;
 }
 .ProductItemImage .ProductItemText p {
@@ -54,12 +54,13 @@
   align-items: center;
   justify-content: center;
   margin: 10px 0 0;
-  padding: 10px 30px;
+  padding: 10px 20px;
   background: linear-gradient(to right, #efc11e 0%, #ffe253 100%);
   border: none;
   border-radius: 5px;
   color: white;
-  font-size: 14px;text-decoration: none;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 .ribbon {
@@ -76,6 +77,6 @@
   background: linear-gradient(to right, #efc11e 0%, #ffe253 100%);
   padding: 10px 3px 15px;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8px), 50% 100%, 0 calc(100% - 8px));
-  width: 32px;
+  width: 50px;
   min-height: 36px;
 }
