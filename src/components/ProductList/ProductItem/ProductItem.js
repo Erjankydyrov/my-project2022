@@ -9,11 +9,11 @@ function ProductItem({ product }) {
           <img src={product.image} alt={product.title} />
           <div className={classes.ProductItemText}>
             <h3>{product.title}</h3>
-            <Link to={"/products/" + product.productId} className={classes.btn}>Buy Now</Link>
+            <div className={classes.btn}>Buy Now</div>
           </div>
         </div>
         <div className={classes.ribbon}>
-          <div className={classes.content}>{product.price}</div>
+          <div className={classes.content}>{product.price}$</div>
         </div>
       </Link>
     </div>
