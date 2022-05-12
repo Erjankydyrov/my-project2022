@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/products.svg";
+import headerImage from "../assets/headerImages/products.svg";
 import ProductList from "../components/ProductList/ProductList";
 import Main from "../components/Main/Main";
 import { getProducts } from "../data/products";

@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/contacts.svg";
+import headerImage from "../assets/headerImages/contacts.svg";
 
 function Contacts() {
   return (
