@@ -15,7 +15,7 @@
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .ProductItemImage:hover img {
-  transform: scale(1.25);
+  transform: scale(1.15);
 }
 .ProductItemImage img {
   width: 100%;

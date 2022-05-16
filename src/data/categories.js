@@ -3,7 +3,7 @@ import PrimarisIntercessors from "../assets/products/warhammer40000/spaceMarines
 const categories = [
   {
     image: PrimarisIntercessors,
-    categoryId: "space-marines",
+    categoryId: "Space-Marines",
     title: "Space Marines",
     description: `The "dry processing" method, cheaper and simpler, was historically used for lower-quality beans in Brazil and much of Africa, but now brings a premium when done well. Twigs and other foreign objects are separated from the berries and the fruit is then spread out in the sun on concrete, bricks or raised beds for 2–3 weeks, turned regularly for even drying.`,
   },
