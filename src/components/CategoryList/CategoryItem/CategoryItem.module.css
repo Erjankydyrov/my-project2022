@@ -14,14 +14,9 @@
 .CategoryItemImage:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-.CategoryItemImage:hover img {
-  transform: scale(1.25);
-}
 .CategoryItemImage img {
   width: 100%;
   object-fit: cover;
-  transition: 0.25s;
-  padding-top: 20px;
 }
 .CategoryItemImage .CategoryItemText {
   position: absolute;
