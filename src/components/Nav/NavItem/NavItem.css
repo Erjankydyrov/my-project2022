@@ -9,7 +9,7 @@
   text-decoration: none;
   font-weight: bold;
   padding: 10px 20px;
-  transition: 0.2s ease color;  
+  transition: 0.2s ease color;
 }
 .NavItem a:before,
 .NavItem a:after {
@@ -58,8 +58,8 @@
 }
 
 @media (max-width: 620px) {
-  .NavItem a {
-    border-bottom: none;
-    border-right: 5px solid transparent;
+  .NavItem a:before,
+  .NavItem a:after {
+    display: none;
   }
-} 
+}
