@@ -5,6 +5,7 @@ import SMPrimarisAncient from "../assets/products/warhammer40000/spaceMarines/SM
 import SMCaptainMasterCraftedBoltRifle from "../assets/products/warhammer40000/spaceMarines/SMCaptainMasterCraftedBoltRifle/SMCaptainMasterCraftedBoltRifle.svg"
 import SMCodex from "../assets/products/warhammer40000/spaceMarines/SMCodex/SMCodex.svg"
 import SMDatacards from "../assets/products/warhammer40000/spaceMarines/SMDatacards/SMDatacards.svg"
+import SMPrimarisEradicatorsLead from "../assets/products/warhammer40000/spaceMarines/SMPrimarisEradicatorsLead/SMPrimarisEradicatorsLead.svg"
 
 const products = [
   {
@@ -63,6 +64,14 @@ const products = [
     title: "Captain with Master-crafted Heavy Bolt Rifle",
     description: `Space Marines on the defence fight with a tenacious fury. Captains will take up heavy bolt rifles to lay down punishing fire and wear Gravis armour to withstand the foe's best attempts to dislodge them. Fighting in such a way, they are a symbol of the Space Marines' indomitable will to never fail.`,
     price: 45,
+  },
+  {
+    image: SMPrimarisEradicatorsLead,
+    productId: "SMPrimarisEradicatorsLead",
+    categoryId: "Space-Marines",
+    title: "Primaris Eradicators",
+    description: `Before the molten ire of an Eradicator Squad, heavy armour and defended positions stand little chance. Eradicators wear the heavier Gravis pattern of Mk X power armour, allowing them to stride unharmed through waves of incoming fire before bringing their own destructive weaponry to bear at close range.`,
+    price: 55,
   },
   {
     image: PrimarisIntercessors,
