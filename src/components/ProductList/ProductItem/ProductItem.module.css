@@ -1,6 +1,9 @@
 .ProductItem {
   position: relative;
   margin: 1rem 0.5rem;
+
+  background-color: #eeeeee;
+  border-radius: 10px;
 }
 
 .ProductItemImage {
@@ -58,8 +61,8 @@
   background: linear-gradient(to right, #efc11e 0%, #ffe253 100%);
   border: none;
   border-radius: 5px;
-  color: white;
-  font-size: 16px;
+  color: rgb(20, 20, 20);
+  font-size: 18px;
   text-decoration: none;
 }
 
@@ -70,7 +73,7 @@
   filter: drop-shadow(2px 3px 2px rgba(0, 0, 0, 0.5));
 }
 .ribbon > .content {
-  color: white;
+  color: rgb(20, 20, 20);
   font-size: 1.25rem;
   text-align: center;
   font-weight: 400;
