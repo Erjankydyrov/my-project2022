@@ -1,11 +1,11 @@
-import PrimarisIntercessors from "../assets/products/warhammer40000/spaceMarines/PrimarisIntercessors/PrimarisIntercessors.svg";
-import HeavyIntercessors from "../assets/products/warhammer40000/spaceMarines/HeavyIntercessors/HeavyIntercessors.svg"
-import SMCPTGravisArmour from "../assets/products/warhammer40000/spaceMarines/SMCPTGravisArmour/SMCPTGravisArmour.svg"
-import SMPrimarisAncient from "../assets/products/warhammer40000/spaceMarines/SMPrimarisAncient/SMPrimarisAncient.svg"
-import SMCaptainMasterCraftedBoltRifle from "../assets/products/warhammer40000/spaceMarines/SMCaptainMasterCraftedBoltRifle/SMCaptainMasterCraftedBoltRifle.svg"
-import SMCodex from "../assets/products/warhammer40000/spaceMarines/SMCodex/SMCodex.svg"
-import SMDatacards from "../assets/products/warhammer40000/spaceMarines/SMDatacards/SMDatacards.svg"
-import SMPrimarisEradicatorsLead from "../assets/products/warhammer40000/spaceMarines/SMPrimarisEradicatorsLead/SMPrimarisEradicatorsLead.svg"
+import PrimarisIntercessors from "../assets/products/spaceMarines/PrimarisIntercessors/PrimarisIntercessors.svg";
+import HeavyIntercessors from "../assets/products/spaceMarines/HeavyIntercessors/HeavyIntercessors.svg"
+import SMCPTGravisArmour from "../assets/products/spaceMarines/SMCPTGravisArmour/SMCPTGravisArmour.svg"
+import SMPrimarisAncient from "../assets/products/spaceMarines/SMPrimarisAncient/SMPrimarisAncient.svg"
+import SMCaptainMasterCraftedBoltRifle from "../assets/products/spaceMarines/SMCaptainMasterCraftedBoltRifle/SMCaptainMasterCraftedBoltRifle.svg"
+import SMCodex from "../assets/products/spaceMarines/SMCodex/SMCodex.svg"
+import SMDatacards from "../assets/products/spaceMarines/SMDatacards/SMDatacards.svg"
+import SMPrimarisEradicatorsLead from "../assets/products/spaceMarines/SMPrimarisEradicatorsLead/SMPrimarisEradicatorsLead.svg"
 
 const products = [
   {
