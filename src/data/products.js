@@ -5,7 +5,11 @@ import SMPrimarisAncient from "../assets/products/spaceMarines/SMPrimarisAncient
 import SMCaptainMasterCraftedBoltRifle from "../assets/products/spaceMarines/SMCaptainMasterCraftedBoltRifle/SMCaptainMasterCraftedBoltRifle.svg"
 import SMCodex from "../assets/products/spaceMarines/SMCodex/SMCodex.svg"
 import SMDatacards from "../assets/products/spaceMarines/SMDatacards/SMDatacards.svg"
-import SMPrimarisEradicatorsLead from "../assets/products/spaceMarines/SMPrimarisEradicatorsLead/SMPrimarisEradicatorsLead.svg"
+import SMPrimarisEradicators from "../assets/products/spaceMarines/SMPrimarisEradicators/SMPrimarisEradicators.svg"
+
+import OrksCodex from "../assets/products/Orks/OrksCodex/OrksCodex.svg"
+import OrksDatacards from "../assets/products/Orks/OrksDatacards/OrksDatacards.svg"
+import WarbossinMegaArmour from "../assets/products/Orks/WarbossinMegaArmour/WarbossinMegaArmour.svg"
 
 const products = [
   {
@@ -66,28 +70,36 @@ const products = [
     price: 45,
   },
   {
-    image: SMPrimarisEradicatorsLead,
-    productId: "SMPrimarisEradicatorsLead",
+    image: SMPrimarisEradicators,
+    productId: "SMPrimarisEradicators",
     categoryId: "Space-Marines",
     title: "Primaris Eradicators",
     description: `Before the molten ire of an Eradicator Squad, heavy armour and defended positions stand little chance. Eradicators wear the heavier Gravis pattern of Mk X power armour, allowing them to stride unharmed through waves of incoming fire before bringing their own destructive weaponry to bear at close range.`,
     price: 55,
   },
   {
-    image: PrimarisIntercessors,
-    productId: "light-roast",
-    categoryId: "orcs",
-    title: "Light roast",
-    description: `The "dry processing" method, cheaper and simpler, was historically used for lower-quality beans in Brazil and much of Africa, but now brings a premium when done well. Twigs and other foreign objects are separated from the berries and the fruit is then spread out in the sun on concrete, bricks or raised beds for 2–3 weeks, turned regularly for even drying.`,
-    price: 45,
+    image: OrksCodex,
+    productId: "OrksCodex",
+    categoryId: "Orks",
+    title: "Codex: Orks",
+    description: `There are many horrific alien threats to be found among the stars, and the Orks are some of the very greatest among them. Born for battle and possessed of an all-encompassing love for war, the average Ork is a heavily muscled killing machine able to withstand tremendous punishment and heal from all but the most grievous injuries.`,
+    price: 55,
   },
   {
-    image: PrimarisIntercessors,
-    productId: "medium-roast",
-    categoryId: "orcs",
-    title: "Medium roast",
-    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
-    price: 34,
+    image: OrksDatacards,
+    productId: "OrksDatacards",
+    categoryId: "Orks",
+    title: "Orks Datacards",
+    description: `Datacards make referencing your rules in battle easy. Containing quick-reference Stratagems and psychic powers, they're perfect for ensuring you don't forget crucial rules when you need them most.`,
+    price: 29,
+  },
+  {
+    image: WarbossinMegaArmour,
+    productId: "WarbossinMegaArmour",
+    categoryId: "Orks",
+    title: "Warboss in Mega Armour",
+    description: `Any good Ork Hunter knows the safest way to deal with a rampaging Warboss is to hit them with tank-busting artillery from as far away as possible. By donning a piston-driven suit of incredibly durable mega armour, this Warboss makes a mockery of such underhanded enemy tactics, much to the terror of his foes.`,
+    price: 38,
   },
 ];
 
