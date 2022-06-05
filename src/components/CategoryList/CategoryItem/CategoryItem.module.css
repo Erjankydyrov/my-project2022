@@ -5,8 +5,9 @@
 
 .CategoryItemImage {
   position: relative;
-  width: 300px;
-  height: 420px;
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
   border-radius: 10px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   overflow: hidden;
@@ -14,8 +15,16 @@
 .CategoryItemImage:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-.CategoryItemImage img {
+.CategoryItemImage:hover .CategotyBG {
+  transform: scale(1.15);
+}
+.CategoryItemImage:hover .CategoryBox {
+  transform: translate(0);
+}
+.CategoryItemImage .CategotyBG {
   width: 100%;
+  height: 100%;
+  transition: 0.3s;
   object-fit: cover;
 }
 .CategoryItemImage .CategoryItemText {
@@ -44,3 +53,20 @@
   line-height: 1.75;
 }
 
+.CategoryBox {
+  color: white;
+  max-width: 250px;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 20%;
+  left: 0;
+  text-align: center;
+  transform: translate(-250px);
+  transition: 0.7s;
+}
+.CategoryBox p {
+  font-size: 18px;
+}
+.CategotyBoxLogo {
+  width: 90%;
+}

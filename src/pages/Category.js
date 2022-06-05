@@ -15,12 +15,17 @@ function Category() {
 
   return (
     <>
-      <Header title={category.title} image={category.image}>
+      <Header
+        title={category.title}
+        image={category.image}
+        boxTitle={category.boxTitle}
+        boxChildren={category.boxChildren}
+      >
         {category.description}
       </Header>
 
       <Main>
-        <ProductList products={getProducts(category.categoryId)}/>
+        <ProductList products={getProducts(category.categoryId)} />
       </Main>
     </>
   );

@@ -1,17 +1,24 @@
-import PrimarisIntercessors from "../assets/products/warhammer40000/spaceMarines/PrimarisIntercessors/PrimarisIntercessors.svg"
+import PrimarisTitle from "../assets/Categories/Primaris-Title.svg"
+import whlogo from "../assets/whLogo.svg"
 
 const categories = [
   {
-    image: PrimarisIntercessors,
+    image: PrimarisTitle,
     categoryId: "Space-Marines",
     title: "Space Marines",
-    description: `The "dry processing" method, cheaper and simpler, was historically used for lower-quality beans in Brazil and much of Africa, but now brings a premium when done well. Twigs and other foreign objects are separated from the berries and the fruit is then spread out in the sun on concrete, bricks or raised beds for 2–3 weeks, turned regularly for even drying.`,
+    categoryLogo: whlogo,
+    boxTitle: "For the Emperor!",
+    boxChildren: "Defend the Imperium with the Primaris Space Marines",
+    description: `Space Marines are the Emperor's angels of death. They do not know fear, pity and regret. They are the defenders of the Imperium and the last line of defense against the hordes of Chaos that press upon the Imperium.`,
   },
   {
-    image: PrimarisIntercessors,
+    image: PrimarisTitle,
     categoryId: "orcs",
     title: "Orcs",
-    description: `The "dry processing" method, cheaper and simpler, was historically used for lower-quality beans in Brazil and much of Africa, but now brings a premium when done well. Twigs and other foreign objects are separated from the berries and the fruit is then spread out in the sun on concrete, bricks or raised beds for 2–3 weeks, turned regularly for even drying.`,
+    categoryLogo: whlogo,
+    boxTitle: "For the Emperor!",
+    boxChildren: "Defend the Imperium with the Primaris Space Marines",
+    description: `Space Marines are the Emperor's angels of death. They do not know fear, pity and regret. They are the defenders of the Imperium and the last line of defense against the hordes of Chaos that press upon the Imperium.`,
   },
 ];
 
