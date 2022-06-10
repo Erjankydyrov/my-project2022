@@ -1,8 +1,7 @@
 import Header from "../components/Header/Header";
 import headerImage from "../assets/headerImages/home.svg";
-import Main from "../components/Main/Main";
-import CategoryList from "../components/CategoryList/CategoryList";
 import { getCategories } from "../data/categories";
+import CategoryListSwiper from "../components/CategoryListSwiper/CategoryListSwiper";
 
 function Home() {
   return (
@@ -16,9 +15,7 @@ function Home() {
         exploring it right now!
       </Header>
 
-      <Main>
-        <CategoryList categories={getCategories()}/>
-      </Main>
+      <CategoryListSwiper categories={getCategories()} />
     </>
   );
 }
