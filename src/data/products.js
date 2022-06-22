@@ -7,9 +7,9 @@ import SMCodex from "../assets/products/spaceMarines/SMCodex/SMCodex.svg"
 import SMDatacards from "../assets/products/spaceMarines/SMDatacards/SMDatacards.svg"
 import SMPrimarisEradicators from "../assets/products/spaceMarines/SMPrimarisEradicators/SMPrimarisEradicators.svg"
 
-import OrksCodex from "../assets/products/Orks/OrksCodex/OrksCodex.svg"
-import OrksDatacards from "../assets/products/Orks/OrksDatacards/OrksDatacards.svg"
-import WarbossinMegaArmour from "../assets/products/Orks/WarbossinMegaArmour/WarbossinMegaArmour.svg"
+import OrksCodex from "../assets/products/orks/OrksCodex/OrksCodex.svg"
+import OrksDatacards from "../assets/products/orks/OrksDatacards/OrksDatacards.svg"
+import WarbossinMegaArmour from "../assets/products/orks/WarbossinMegaArmour/WarbossinMegaArmour.svg"
 
 const products = [
   {
