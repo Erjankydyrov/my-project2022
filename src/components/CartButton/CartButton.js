@@ -1,4 +1,4 @@
-import classes from "CartButton.module.css";
+import classes from "./CartButton.module.css";
 import { useDispatch } from "react-redux";
 
 export default function CartButton({ productId, children }) {
