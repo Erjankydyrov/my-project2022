@@ -1,6 +1,6 @@
-import PrimarisTitle from "../assets/Categories/PrimarisTitle.jpg"
+import PrimarisTitle from "../assets/categories/PrimarisTitle.jpg"
 import whlogo from "../assets/whLogo.svg"
-import OrcsTitle from "../assets/Categories/OrksTitle.jpg"
+import OrcsTitle from "../assets/categories/OrksTitle.jpg"
 
 const categories = [
   {
