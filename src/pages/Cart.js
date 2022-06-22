@@ -3,6 +3,7 @@ import image from "../assets/headerImages/home.svg";
 import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../data/products";
 import { Link } from "react-router-dom";
+import Main from "../components/Main/Main"
 
 function Cart() {
   const items = useSelector((store) => store.cart.items);
@@ -35,11 +36,13 @@ function Cart() {
       <Header title="Your Shopping Cart" image={image}>
         Please review items in your cart.
       </Header>
+      <Main>
       <div>
         {output}
         <hr />
         Total: ${total}
       </div>
+      </Main>
     </>
   );
 }
