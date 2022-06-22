@@ -16,7 +16,7 @@ function Product() {
       <Header title={product.title} image={product.image}>
         {product.description}
       </Header>
-      <CartButton productId={product.id}>Add to cart</CartButton>
+      <CartButton productId={params.productId}>Add to cart</CartButton>
     </>
   );
 }
