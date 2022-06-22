@@ -13,6 +13,19 @@ const cartSlice = createSlice({
         store.items[action.payload] = 1;
       }
     },
+    delete: (store, action) => {
+      delete store.items[action.payload];
+    },
+    increment: (store, action) => {
+      store.items[action.payload]++;
+    },
+    decrement: (store, action) => {
+      if (store.items[action.payload] > 1) {
+        store.items[action.payload]--;
+      } else {
+        delete store.items[action.payload];
+      }
+    },
   },
 });
 
