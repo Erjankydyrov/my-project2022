@@ -1,4 +1,4 @@
-import headerImage from "../assets/headerImages/home.svg";
+import headerImage from "../assets/headerImages/home.jpg";
 import Header from "../components/Header/Header";
 
 function NotFound() {

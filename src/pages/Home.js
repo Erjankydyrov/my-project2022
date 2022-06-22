@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/headerImages/home.svg";
+import headerImage from "../assets/headerImages/home.jpg";
 import { getCategories } from "../data/categories";
 import CategoryListSwiper from "../components/CategoryListSwiper/CategoryListSwiper";
 
