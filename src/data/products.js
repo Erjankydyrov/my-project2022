@@ -2,6 +2,7 @@
 
 import orksCodex from "../assets/products/orks/orksCodex/orksCodex.png"
 import orksDatacards from "../assets/products/orks/orksDatacards/orksDatacards.png"
+import warbossinMegaArmour from "../assets/products/orks/warbossinMegaArmour/warbossinMegaArmour.png"
 
 const products = [
   
@@ -20,6 +21,14 @@ const products = [
     title: "Orks Datacards",
     description: `Datacards make referencing your rules in battle easy. Containing quick-reference Stratagems and psychic powers, they're perfect for ensuring you don't forget crucial rules when you need them most.`,
     price: 29,
+  },
+  {
+    image: warbossinMegaArmour,
+    productId: "warbossinMegaArmour",
+    categoryId: "orks",
+    title: "Warboss in Mega Armour",
+    description: `Any good Ork Hunter knows the safest way to deal with a rampaging Warboss is to hit them with tank-busting artillery from as far away as possible. By donning a piston-driven suit of incredibly durable mega armour, this Warboss makes a mockery of such underhanded enemy tactics, much to the terror of his foes.`,
+    price: 38,
   },
 ];
 
