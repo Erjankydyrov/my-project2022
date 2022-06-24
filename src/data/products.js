@@ -1,8 +1,3 @@
-import PrimarisIntercessors from "../assets/products/spaceMarines/primarisIntercessors/primarisIntercessors.svg";
-
-import orksCodex from "../assets/products/orks/orksCodex/orksCodex.png"
-import orksDatacards from "../assets/products/orks/orksDatacards/orksDatacards.png"
-import warbossinMegaArmour from "../assets/products/orks/warbossinMegaArmour/warbossinMegaArmour.png"
 
 const products = [
   
