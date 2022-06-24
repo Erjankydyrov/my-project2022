@@ -1,6 +1,7 @@
 import smCodex from "../assets/products/spaceMarines/smCodex/smCodex.png"
 import smDatacards from "../assets/products/spaceMarines/smDatacards/smDatacards.png";
 import primarisIntercessors from "../assets/products/spaceMarines/primarisIntercessors/primarisIntercessors.png"
+import heavyIntercessors from "../assets/products/spaceMarines/heavyIntercessors/heavyIntercessors.png"
 
 import orksCodex from "../assets/products/orks/orksCodex/orksCodex.png"
 import orksDatacards from "../assets/products/orks/orksDatacards/orksDatacards.png"
@@ -30,6 +31,14 @@ const products = [
     title: "Primaris Intercessors",
     description: `A strong core of reliable and adaptable warriors that can lay down fire while advancing or holding down terrain is an invaluable aid to any tactician. In the case of strike forces bolstered by Primaris battle-brothers, this role is fulfilled by the Intercessor Squads. Capable of levelling overlapping salvoes of firepower, these squads often form the flexible fighting core of newly-founded Primaris Chapters – though of course many established Chapters have eagerly leveraged their abilities, fielding them alongside Tactical Squads.`,
     price: 60,
+  },
+  {
+    image: heavyIntercessors,
+    productId: "heavyIntercessors",
+    categoryId: "spaceMarines",
+    title: "Heavy Intercessors",
+    description: `Clad in thick Gravis armour, Heavy Intercessors secure ground and are immovable in defence. Always ready for any sign of enemy counter-attack, they stand firm, laying down volleys of heavy fire that keep all but the most determined or foolhardy enemies at bay.`,
+    price: 55,
   },
   
   {
