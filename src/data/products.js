@@ -1,5 +1,6 @@
 import smCodex from "../assets/products/spaceMarines/smCodex/smCodex.png"
 import smDatacards from "../assets/products/spaceMarines/smDatacards/smDatacards.png";
+import primarisIntercessors from "../assets/products/spaceMarines/primarisIntercessors/primarisIntercessors.png"
 
 import orksCodex from "../assets/products/orks/orksCodex/orksCodex.png"
 import orksDatacards from "../assets/products/orks/orksDatacards/orksDatacards.png"
@@ -20,6 +21,14 @@ const products = [
     categoryId: "spaceMarines",
     title: "Codex: Space Marines",
     description: `The Space Marines are numbered amongst the most elite warriors in the Imperium. Created by the Emperor himself from the genetic material of the demigod Primarchs, they are the ultimate soldiers for a cruel and terrible age. Inside this 208-page hardback codex, you'll find everything you need to unleash the Space Marines in battle, plus thrilling lore and art to inspire your own collection.`,
+    price: 60,
+  },
+  {
+    image: primarisIntercessors,
+    productId: "primarisIntercessors",
+    categoryId: "spaceMarines",
+    title: "Primaris Intercessors",
+    description: `A strong core of reliable and adaptable warriors that can lay down fire while advancing or holding down terrain is an invaluable aid to any tactician. In the case of strike forces bolstered by Primaris battle-brothers, this role is fulfilled by the Intercessor Squads. Capable of levelling overlapping salvoes of firepower, these squads often form the flexible fighting core of newly-founded Primaris Chapters – though of course many established Chapters have eagerly leveraged their abilities, fielding them alongside Tactical Squads.`,
     price: 60,
   },
   
