@@ -5,7 +5,7 @@ import orcsTitle from "../assets/categories/orksTitle.jpg"
 const categories = [
   {
     image: primarisTitle,
-    categoryId: "Space-Marines",
+    categoryId: "spaceMarines",
     title: "Space Marines",
     categoryLogo: whlogo,
     boxTitle: "For the Emperor!",
