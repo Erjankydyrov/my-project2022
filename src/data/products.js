@@ -1,14 +1,8 @@
 
+
+import orksCodex from "../assets/products/orks/orksCodex/orksCodex.png"
+
 const products = [
-  
-  {
-    image: PrimarisIntercessors,
-    productId: "PrimarisIntercessors",
-    categoryId: "spaceMarines",
-    title: "Primaris Intercessors",
-    description: `A strong core of reliable and adaptable warriors that can lay down fire while advancing or holding down terrain is an invaluable aid to any tactician. In the case of strike forces bolstered by Primaris battle-brothers, this role is fulfilled by the Intercessor Squads. Capable of levelling overlapping salvoes of firepower, these squads often form the flexible fighting core of newly-founded Primaris Chapters – though of course many established Chapters have eagerly leveraged their abilities, fielding them alongside Tactical Squads.`,
-    price: 60,
-  },
   
   {
     image: orksCodex,
@@ -17,22 +11,6 @@ const products = [
     title: "Codex: Orks",
     description: `There are many horrific alien threats to be found among the stars, and the Orks are some of the very greatest among them. Born for battle and possessed of an all-encompassing love for war, the average Ork is a heavily muscled killing machine able to withstand tremendous punishment and heal from all but the most grievous injuries.`,
     price: 55,
-  },
-  {
-    image: orksDatacards,
-    productId: "orksDatacards",
-    categoryId: "orks",
-    title: "Orks Datacards",
-    description: `Datacards make referencing your rules in battle easy. Containing quick-reference Stratagems and psychic powers, they're perfect for ensuring you don't forget crucial rules when you need them most.`,
-    price: 29,
-  },
-  {
-    image: warbossinMegaArmour,
-    productId: "warbossinMegaArmour",
-    categoryId: "orks",
-    title: "Warboss in Mega Armour",
-    description: `Any good Ork Hunter knows the safest way to deal with a rampaging Warboss is to hit them with tank-busting artillery from as far away as possible. By donning a piston-driven suit of incredibly durable mega armour, this Warboss makes a mockery of such underhanded enemy tactics, much to the terror of his foes.`,
-    price: 38,
   },
 ];
 
