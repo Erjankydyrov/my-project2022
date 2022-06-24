@@ -1,8 +1,7 @@
 import Header from "../components/Header/Header";
 import image from "../assets/headerImages/home.jpg";
 import { useDispatch, useSelector } from "react-redux";
-import { getProducts } from "../data/products";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { checkout } from "../redux/cartSlice";
 import Main from "../components/Main/Main";
 import CartDisplay from "../components/CartDisplay/CartDisplay";
