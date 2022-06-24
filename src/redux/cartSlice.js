@@ -25,7 +25,7 @@ const cartSlice = createSlice({
       }
       saveInStorage(store.items);
     },
-    delete: (store, action) => {
+    remove: (store, action) => {
       delete store.items[action.payload];
       saveInStorage(store.items);
     },
@@ -52,5 +52,7 @@ const cartSlice = createSlice({
     }
   },
 });
+
+export const { add, remove, increment, decrement } = cartSlice.actions;
 
 export default cartSlice.reducer;
