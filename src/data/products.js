@@ -4,6 +4,7 @@ import primarisIntercessors from "../assets/products/spaceMarines/primarisInterc
 import heavyIntercessors from "../assets/products/spaceMarines/heavyIntercessors/heavyIntercessors.png"
 import smCPTGravisArmour from "../assets/products/spaceMarines/smCPTGravisArmour/smCPTGravisArmour.png"
 import smPrimarisAncient from "../assets/products/spaceMarines/smPrimarisAncient/smPrimarisAncient.png"
+import smCaptainMasterCraftedBoltRifle from "../assets/products/spaceMarines/smCaptainMasterCraftedBoltRifle/smCaptainMasterCraftedBoltRifle.png"
 
 import orksCodex from "../assets/products/orks/orksCodex/orksCodex.png"
 import orksDatacards from "../assets/products/orks/orksDatacards/orksDatacards.png"
@@ -56,6 +57,14 @@ const products = [
     categoryId: "spaceMarines",
     title: "Primaris Ancient",
     description: `Ancients bear a Space Marine Chapter's precious standards. These glorious relics have been present in some of the Chapter's most notable battles, their finely worked designs commemorating countless campaigns and heroic deeds. They are symbols of selfless commitment and the unbreakable loyalty of battle-brothers.`,
+    price: 45,
+  },
+  {
+    image: smCaptainMasterCraftedBoltRifle,
+    productId: "smCaptainMasterCraftedBoltRifle",
+    categoryId: "spaceMarines",
+    title: "Captain with Master-crafted Heavy Bolt Rifle",
+    description: `Space Marines on the defence fight with a tenacious fury. Captains will take up heavy bolt rifles to lay down punishing fire and wear Gravis armour to withstand the foe's best attempts to dislodge them. Fighting in such a way, they are a symbol of the Space Marines' indomitable will to never fail.`,
     price: 45,
   },
   
