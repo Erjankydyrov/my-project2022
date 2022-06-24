@@ -5,29 +5,13 @@ import { getProducts } from "../data/products";
 import { Link, useNavigate } from "react-router-dom";
 import { checkout } from "../redux/cartSlice";
 import Main from "../components/Main/Main";
+import CartDisplay from "../components/CartDisplay/CartDisplay";
 
 function Checkout() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const items = useSelector(store => store.cart.items);
-  const products = getProducts();
 
-  let total = 0;
-  let output = products
-    .filter(product => items[product.productId])
-    .map(product => {
-      total += product.price * items[product.productId];
-
-      return (
-        <div>
-          <Link to="">{product.title}</Link> {items[product.productId]} ${product.price * items[product.productId]}
-        </div>
-      );
-    });
-
-  if (!output) {
-    output = "No items in the cart.";
-  }
 
   function onCheckout(event) {
     event.preventDefault();
@@ -47,33 +31,27 @@ function Checkout() {
         Please enter your information.
       </Header>
       <Main>
-        <div>
-          {output}
-          <hr />
-          Total: ${total}
+        <CartDisplay />
+        <form onSubmit={onCheckout}>
+          <label>
+            First name:
+            <input type="text" name="firstName" required />
+          </label>
+          <label>
+            Last name:
+            <input type="text" name="lastName" required />
+          </label>
+          <label>
+            Address:
+            <input type="text" name="address" required />
+          </label>
+          <label>
+            Phone:
+            <input type="text" name="phone" required />
+          </label>
 
-          <form onSubmit={onCheckout}>
-            <label>
-              First name:
-              <input type="text" name="firstName" required />
-            </label>
-            <label>
-              Last name:
-              <input type="text" name="lastName" required />
-            </label>
-            <label>
-              Address:
-              <input type="text" name="address" required />
-            </label>
-            <label>
-              Phone:
-              <input type="text" name="phone" required />
-            </label>
-
-            <button>Complete the order</button>
-          </form>
-
-        </div>
+          <button>Complete the order</button>
+        </form>
       </Main>
     </>
   );
