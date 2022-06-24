@@ -1,0 +1,18 @@
+.CartLink {
+  text-decoration: none;
+  color: #949494;
+  transition: 0.2s ease color;
+
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: baseline;
+  align-items: center;
+}
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.CartLink:hover {
+  color: rgb(233, 181, 84);
+}

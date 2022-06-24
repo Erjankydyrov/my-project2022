@@ -24,3 +24,7 @@ code {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+Nav a.active {
+  color: rgb(233, 181, 84);
+}
