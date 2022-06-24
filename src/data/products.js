@@ -3,6 +3,7 @@ import smDatacards from "../assets/products/spaceMarines/smDatacards/smDatacards
 import primarisIntercessors from "../assets/products/spaceMarines/primarisIntercessors/primarisIntercessors.png"
 import heavyIntercessors from "../assets/products/spaceMarines/heavyIntercessors/heavyIntercessors.png"
 import smCPTGravisArmour from "../assets/products/spaceMarines/smCPTGravisArmour/smCPTGravisArmour.png"
+import smPrimarisAncient from "../assets/products/spaceMarines/smPrimarisAncient/smPrimarisAncient.png"
 
 import orksCodex from "../assets/products/orks/orksCodex/orksCodex.png"
 import orksDatacards from "../assets/products/orks/orksDatacards/orksDatacards.png"
@@ -47,6 +48,14 @@ const products = [
     categoryId: "spaceMarines",
     title: "Captain in Gravis Armour",
     description: `Captains are fearless leaders among the Space Marines, each one a masterful tactician and skilled warrior armed with a variety of weapons and equipment. Clad in a suit of heavy Gravis armour, a Captain can fearlessly stride into the very fiercest battlefield firestorms. To don Gravis armour is to demonstrate the greatest determination to crush the enemy, no matter how deeply they are entrenched.`,
+    price: 45,
+  },
+  {
+    image: smPrimarisAncient,
+    productId: "smPrimarisAncient",
+    categoryId: "spaceMarines",
+    title: "Primaris Ancient",
+    description: `Ancients bear a Space Marine Chapter's precious standards. These glorious relics have been present in some of the Chapter's most notable battles, their finely worked designs commemorating countless campaigns and heroic deeds. They are symbols of selfless commitment and the unbreakable loyalty of battle-brothers.`,
     price: 45,
   },
   
