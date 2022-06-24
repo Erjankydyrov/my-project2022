@@ -1,10 +1,18 @@
-
+import smCodex from "../assets/products/spaceMarines/smCodex/smCodex.png"
 
 import orksCodex from "../assets/products/orks/orksCodex/orksCodex.png"
 import orksDatacards from "../assets/products/orks/orksDatacards/orksDatacards.png"
 import warbossinMegaArmour from "../assets/products/orks/warbossinMegaArmour/warbossinMegaArmour.png"
 
 const products = [
+  {
+    image: smCodex,
+    productId: "smCodex",
+    categoryId: "spaceMarines",
+    title: "Datacards: Space Marines",
+    description: `Unleash the fury of the Space Marines with these handy reference cards! Each set is great for quickly referring to your rules, making sure you'll pick the right Stratagem, Litanies of Battle or psychic powers for your battles with ease.`,
+    price: 60,
+  },
   
   {
     image: orksCodex,
