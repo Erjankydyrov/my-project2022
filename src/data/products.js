@@ -7,7 +7,7 @@ import SMCodex from "../assets/products/spaceMarines/SMCodex/SMCodex.svg"
 import SMDatacards from "../assets/products/spaceMarines/SMDatacards/SMDatacards.svg"
 import SMPrimarisEradicators from "../assets/products/spaceMarines/SMPrimarisEradicators/SMPrimarisEradicators.svg"
 
-import OrksCodex from "../assets/products/orks/OrksCodex/OrksCodex.svg"
+import orksCodex from "../assets/products/orks/orksCodex/orksCodex.png"
 import OrksDatacards from "../assets/products/orks/OrksDatacards/OrksDatacards.svg"
 import WarbossinMegaArmour from "../assets/products/orks/WarbossinMegaArmour/WarbossinMegaArmour.svg"
 
@@ -78,7 +78,7 @@ const products = [
     price: 55,
   },
   {
-    image: OrksCodex,
+    image: orksCodex,
     productId: "OrksCodex",
     categoryId: "Orks",
     title: "Codex: Orks",
