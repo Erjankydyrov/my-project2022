@@ -42,6 +42,7 @@ function Cart() {
         <hr />
         Total: ${total}
       </div>
+      <Link to="/checkout">Checkout</Link>
       </Main>
     </>
   );
