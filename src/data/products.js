@@ -5,6 +5,7 @@ import heavyIntercessors from "../assets/products/spaceMarines/heavyIntercessors
 import smCPTGravisArmour from "../assets/products/spaceMarines/smCPTGravisArmour/smCPTGravisArmour.png"
 import smPrimarisAncient from "../assets/products/spaceMarines/smPrimarisAncient/smPrimarisAncient.png"
 import smCaptainMasterCraftedBoltRifle from "../assets/products/spaceMarines/smCaptainMasterCraftedBoltRifle/smCaptainMasterCraftedBoltRifle.png"
+import smPrimarisEradicators from "../assets/products/spaceMarines/smPrimarisEradicators/smPrimarisEradicators.png"
 
 import orksCodex from "../assets/products/orks/orksCodex/orksCodex.png"
 import orksDatacards from "../assets/products/orks/orksDatacards/orksDatacards.png"
@@ -66,6 +67,14 @@ const products = [
     title: "Captain with Master-crafted Heavy Bolt Rifle",
     description: `Space Marines on the defence fight with a tenacious fury. Captains will take up heavy bolt rifles to lay down punishing fire and wear Gravis armour to withstand the foe's best attempts to dislodge them. Fighting in such a way, they are a symbol of the Space Marines' indomitable will to never fail.`,
     price: 45,
+  },
+  {
+    image: smPrimarisEradicators,
+    productId: "smPrimarisEradicators",
+    categoryId: "spaceMarines",
+    title: "Primaris Eradicators",
+    description: `Before the molten ire of an Eradicator Squad, heavy armour and defended positions stand little chance. Eradicators wear the heavier Gravis pattern of Mk X power armour, allowing them to stride unharmed through waves of incoming fire before bringing their own destructive weaponry to bear at close range.`,
+    price: 55,
   },
   
   {
