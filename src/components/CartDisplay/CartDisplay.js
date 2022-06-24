@@ -27,7 +27,7 @@ function CartDisplay({ actions }) {
   }
 
   return (
-    <div class={classes.CartDisplay}>
+    <div className={classes.CartDisplay}>
       {output}
       <hr />
       Total: ${total}
