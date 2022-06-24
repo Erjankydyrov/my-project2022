@@ -9,7 +9,7 @@ import SMPrimarisEradicators from "../assets/products/spaceMarines/SMPrimarisEra
 
 import orksCodex from "../assets/products/orks/orksCodex/orksCodex.png"
 import orksDatacards from "../assets/products/orks/orksDatacards/orksDatacards.png"
-import WarbossinMegaArmour from "../assets/products/orks/WarbossinMegaArmour/WarbossinMegaArmour.svg"
+import warbossinMegaArmour from "../assets/products/orks/warbossinMegaArmour/warbossinMegaArmour.png"
 
 const products = [
   {
@@ -94,8 +94,8 @@ const products = [
     price: 29,
   },
   {
-    image: WarbossinMegaArmour,
-    productId: "WarbossinMegaArmour",
+    image: warbossinMegaArmour,
+    productId: "warbossinMegaArmour",
     categoryId: "orks",
     title: "Warboss in Mega Armour",
     description: `Any good Ork Hunter knows the safest way to deal with a rampaging Warboss is to hit them with tank-busting artillery from as far away as possible. By donning a piston-driven suit of incredibly durable mega armour, this Warboss makes a mockery of such underhanded enemy tactics, much to the terror of his foes.`,
