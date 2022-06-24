@@ -1,10 +1,10 @@
-import primarisTitle from "../assets/categories/primarisTitle.jpg"
+import primaris from "../assets/categories/primaris.jpg"
 import whlogo from "../assets/whLogo.svg"
-import orcsTitle from "../assets/categories/orksTitle.jpg"
+import orcs from "../assets/categories/orks.jpg"
 
 const categories = [
   {
-    image: primarisTitle,
+    image: primaris,
     categoryId: "spaceMarines",
     title: "Space Marines",
     categoryLogo: whlogo,
@@ -13,7 +13,7 @@ const categories = [
     description: `Space Marines are the Emperor's angels of death. They do not know fear, pity and regret. They are the defenders of the Imperium and the last line of defense against the hordes of Chaos that press upon the Imperium.`,
   },
   {
-    image: orcsTitle,
+    image: orcs,
     categoryId: "orks",
     title: "Orks",
     categoryLogo: whlogo,
