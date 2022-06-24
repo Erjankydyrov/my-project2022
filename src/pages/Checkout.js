@@ -33,7 +33,8 @@ function Checkout() {
     event.preventDefault();
 
     const formData = new FormData(event.target);
-    dispatch(checkout(Object.fromEntries(formData.entries())));
+    const order = { items: items, ...Object.fromEntries(formData.entries()) };
+    dispatch(checkout(order));;
     navigate('/');
   }
 
