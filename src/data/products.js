@@ -2,6 +2,7 @@ import smCodex from "../assets/products/spaceMarines/smCodex/smCodex.png"
 import smDatacards from "../assets/products/spaceMarines/smDatacards/smDatacards.png";
 import primarisIntercessors from "../assets/products/spaceMarines/primarisIntercessors/primarisIntercessors.png"
 import heavyIntercessors from "../assets/products/spaceMarines/heavyIntercessors/heavyIntercessors.png"
+import smCPTGravisArmour from "../assets/products/spaceMarines/smCPTGravisArmour/smCPTGravisArmour.png"
 
 import orksCodex from "../assets/products/orks/orksCodex/orksCodex.png"
 import orksDatacards from "../assets/products/orks/orksDatacards/orksDatacards.png"
@@ -39,6 +40,14 @@ const products = [
     title: "Heavy Intercessors",
     description: `Clad in thick Gravis armour, Heavy Intercessors secure ground and are immovable in defence. Always ready for any sign of enemy counter-attack, they stand firm, laying down volleys of heavy fire that keep all but the most determined or foolhardy enemies at bay.`,
     price: 55,
+  },
+  {
+    image: smCPTGravisArmour,
+    productId: "smCPTGravisArmour",
+    categoryId: "spaceMarines",
+    title: "Captain in Gravis Armour",
+    description: `Captains are fearless leaders among the Space Marines, each one a masterful tactician and skilled warrior armed with a variety of weapons and equipment. Clad in a suit of heavy Gravis armour, a Captain can fearlessly stride into the very fiercest battlefield firestorms. To don Gravis armour is to demonstrate the greatest determination to crush the enemy, no matter how deeply they are entrenched.`,
+    price: 45,
   },
   
   {
