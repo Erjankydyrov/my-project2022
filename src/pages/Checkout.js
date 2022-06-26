@@ -9,18 +9,16 @@ import CartDisplay from "../components/CartDisplay/CartDisplay";
 function Checkout() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const items = useSelector(store => store.cart.items);
-
+  const items = useSelector((store) => store.cart.items);
 
   function onCheckout(event) {
     event.preventDefault();
 
     const formData = new FormData(event.target);
     const order = { items: items, ...Object.fromEntries(formData.entries()) };
-    dispatch(checkout(order));;
-    navigate('/');
+    dispatch(checkout(order));
+    navigate("/");
   }
-
 
   return (
     <>
@@ -28,7 +26,8 @@ function Checkout() {
         title="Checkout"
         image={image}
         boxTitle="General we are ready for battle!"
-        boxChildren="Tell us where to go.">
+        boxChildren="Tell us where to go."
+      >
         Please enter your information.
       </Header>
       <Main>
