@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import image from "../assets/headerImages/home.jpg";
+import image from "../assets/headerImages/checkout.jpg";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { checkout } from "../redux/cartSlice";
@@ -26,7 +26,9 @@ function Checkout() {
     <>
       <Header
         title="Checkout"
-        image={image}>
+        image={image}
+        boxTitle="General we are ready for battle!"
+        boxChildren="Tell us where to go.">
         Please enter your information.
       </Header>
       <Main>
