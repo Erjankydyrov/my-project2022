@@ -4,3 +4,10 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 } 
+.totalDiv {
+  width: 100%;
+  text-align: center;
+}
+.total {
+  font-size: 20px;
+}

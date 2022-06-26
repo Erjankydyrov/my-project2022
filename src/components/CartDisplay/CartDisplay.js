@@ -32,7 +32,9 @@ function CartDisplay({ actions }) {
         {output}
       </div>
       <hr />
-      Total: ${total}
+      <div className={classes.totalDiv}>
+        <span className={classes.total}>Total: ${total}</span>
+      </div>
     </>
   );
 }
