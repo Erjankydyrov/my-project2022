@@ -5,6 +5,7 @@
   justify-content: space-evenly;
 } 
 .totalDiv {
+  margin-top: 15px;
   width: 100%;
   text-align: center;
 }

@@ -3,6 +3,7 @@ import image from "../assets/headerImages/home.jpg";
 import { Link } from "react-router-dom";
 import Main from "../components/Main/Main"
 import CartDisplay from "../components/CartDisplay/CartDisplay";
+import { BsArrowBarRight } from 'react-icons/bs';
 
 function Cart() {
 
@@ -13,7 +14,9 @@ function Cart() {
       </Header>
       <Main>
         <CartDisplay actions />
-        <Link to="/checkout">Checkout</Link>
+        <div className="checkoutContainer">
+          <Link to="/checkout" className="checkoutLink">CHECKOUT <BsArrowBarRight className="arrowIcon"/></Link>
+        </div>
       </Main>
     </>
   );
