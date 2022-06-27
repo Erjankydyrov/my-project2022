@@ -11,7 +11,7 @@ export default function Auth() {
     dispatch(start({
       email: formData.get('email'),
       password: formData.get('password'),
-      method: 'signup'
+      method: event.nativeEvent.submitter.innerText === "Sign up" ? 'signup' : 'signin',
     }));
   }
   return (
