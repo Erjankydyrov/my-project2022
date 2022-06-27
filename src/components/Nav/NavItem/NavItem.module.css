@@ -57,7 +57,7 @@
   transform: scale(1);
 }
 
-@media (max-width: 620px) {
+@media (max-width: 720px) {
   .NavItem a:before,
   .NavItem a:after {
     display: none;

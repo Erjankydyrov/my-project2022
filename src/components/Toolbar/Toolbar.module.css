@@ -17,7 +17,7 @@
   margin: 0 auto;
   padding: 0 1rem;
 }
-@media (max-width: 620px) {
+@media (max-width: 720px) {
   .Toolbar ul {
     display: none;
   }
