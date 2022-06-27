@@ -1,6 +1,21 @@
+import { useDispatch } from "react-redux";
+import { start } from "../redux/authSlice";
+
 export default function Auth() {
+  const dispatch = useDispatch();
+
+  function onAuthStart(event) {
+    event.preventDefault();
+
+    const formData = new FormData(event.target);
+    dispatch(start({
+      email: formData.get('email'),
+      password: formData.get('password'),
+      method: 'signup'
+    }));
+  }
   return (
-    <form>
+    <form onSubmit={onAuthStart}>
       <label>
         Email:
         <input type="email" name="email" />
