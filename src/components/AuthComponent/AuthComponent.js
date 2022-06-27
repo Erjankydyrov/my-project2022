@@ -1,6 +1,7 @@
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { start } from "../../redux/authSlice";
+import classes from "./AuthComponent.module.css"
 
 function AuthComponent() {
   const dispatch = useDispatch();
@@ -24,7 +25,7 @@ function AuthComponent() {
     navigate("/");
   }
   return (
-    <form onSubmit={onAuthStart}>
+    <form onSubmit={onAuthStart} className={classes.AuthComponent}>
       <label>
         Email:
         <input type="email" name="email" />
