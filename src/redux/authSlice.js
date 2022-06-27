@@ -7,7 +7,7 @@ const signInUrl = "https://identitytoolkit.googleapis.com/v1/accounts:signInWith
 const signUpUrl = "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=" + key;
 
 export const start = createAsyncThunk('auth/start', (data, thunkAPI) => {
-  axios.post(method == 'signin' ? signInUrl : signUpUrl, {
+  axios.post(data.method === 'signin' ? signInUrl : signUpUrl, {
     email: data.email,
     password: data.password,
     returnSecureToken: true,
