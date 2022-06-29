@@ -84,6 +84,11 @@
 .btns button:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
+.error {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
 
 @media (max-width: 620px) {
   .AuthComponent {
